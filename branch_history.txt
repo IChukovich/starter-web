@@ -1,0 +1,127 @@
+439  git branch -a
+  440  ls
+  441  ch ichukovich-git
+  442  cd ichukovich-git
+  443  git branch -a
+  444  cd projects
+  445  cd ..
+  446  cd..
+  447  cd ..
+  448  ls
+  449  cd starter-web
+  450  ls
+  451  git status
+  452  git branch -a
+  453  git branch mynewbranch
+  454  git branch -a
+  455  git checkout mynewbranch
+  456  git branch -a
+  457  git log --oneline --decorate
+  458  git checkout master
+  459  git branch -m mynewbranch newbranch
+  460  git branch -a
+  461  git branch -d newbranch
+  462  git branch -a
+  463  clear
+  464  git status
+  465  git branch
+  466  git branch -a
+  467  git checkout -b title-change
+  468  git status
+  469  npp simple.html
+  470  git status
+  471  git status
+  472  git commit -am "Changing title of HTML file"
+  473  git log --oneline
+  474  git chekout master
+  475  git checkout masteer
+  476  git checkout master
+  477  git diff master title-change
+  478  git difftool master title-change
+  479  git difftool title-change master
+  480  git merge title-change
+  481  git log --oneline --graph --decorate
+  482  git branch
+  483  git branch -d title-change
+  484  git branch
+  485  clear
+  
+  501  ls
+  502  cd projects
+  503  ls
+  504  cd starter-web
+  505  ls
+  506  git status
+  507  git branch
+  508  git checkout -b add-copyrighht
+  509  git branch -m add-copyrighht add-copyright
+  510  git branch
+  511  npp simple.html
+  512  git status
+  513  git commit -am "Adding copyright notice"
+  514  npp README.md
+  515  git status
+  516  git commit -am "Adding copyright notice to Readme"
+  517  git log --oneline --graph --decorate
+  518  git checkout master
+  519  git merge add-copyright --no-ff
+  520  git log --oneline --graph --decorate
+  521  git branch -d add-copyright
+  522  git log --oneline --graph --decorate
+  523  clear
+  524  git status
+  525  git checkout -b simple-changes
+  526  npp humans.txt
+  527  git status
+  528  git commit -am "Adding team members to humans.txt"
+  529  git checkout master
+  530  npp README.md
+  531  git status
+  532  git commit -am "Adding instructions on how to contribute"
+  533  git log --oneline --graph --decorate
+  534  git branch
+  535  git checkout simple-changes
+  536  git log --oneline --graph --decorate
+  537  git checkout master
+  538  git merge simple-changes -m "Merging changes from simple-changes branch"
+  539  git log --oneline --graph --decorate
+  540  git branch -d simple-changes
+  541  git log --oneline --graph --decorate
+  542  npp README.md
+  543  npp humans.txt
+  544  clear
+  545  git checkout -b realwork
+  546  npp simple.html
+  547  git status
+  548  git commit -am "Making changes to simple.html"
+  549  git log --oneline --graph --decorat
+  550  git log --oneline --graph --decorate
+  551  git checkout master
+  552  npp simple.html
+  553  git status
+  554  git commit -am "Adding conflict changes for Git example"
+  555  git log --oneline --graph --decorate
+  556  git branch
+  557  git diff master realwork
+  558  git difftool master realwork
+  559  git merge realwork
+  560  git status
+  561  npp simple.html
+  562  git mergetool
+  563  git status
+  564  npp siimple.htmp
+  565  npp simple.html
+  566  git commit -am "Done resolving merge conflict"
+  567  git log --oneline --graph --decorate
+  568  git status
+  569  npp .gitignore
+  570  git status
+  571  git commit -am "Updating .gitignore to exclude merge temp files"
+  572  gi status
+  573  git status
+  574  clear
+  575  git branch
+  576  git branch -d realwork
+  577  git pull origin master
+  578  git push origin master
+  579  history
