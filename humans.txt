@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Iryna Chukovich IChukovich@gomel.iba.by noTwitter
 
 # THANKS
 
