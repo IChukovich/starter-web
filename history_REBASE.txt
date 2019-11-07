@@ -1,0 +1,115 @@
+94  cd starter-web
+   95  ls
+   96  clear]
+   97  clear
+   98  git status
+   99  git checkout -b myfeature
+  100  npp humen.txt
+  101  npp humans.txt
+  102  git status
+  103  git commit -am "Saying thanks to all my students"
+  104  git checkout master
+  105  npp README.md
+  106  git status
+  107  git commit -am "Adding oneliner for README for rebase example"
+  108  git log --oneline --decorate --all --graph
+  109  git checkout myfeature
+  110  git rebase master
+  111  git log --oneline --decorate --all --graph
+  112  npp README.md
+  113  git status
+  114  git commit -am "Adding another change after rebase"
+  115  git log --oneline --graph decorate --all --graph
+  116  git log --oneline --decorate --all --graph
+  117  git checkout master
+  118  npp README.md
+  119  git status
+  120  git diff master myfeature
+  121  git merge myfeature
+  122  git log --oneline --decorate --all --graph
+  123  npp README.md
+  124  git branch -d myfeature
+  125  git branch
+  126  history
+  127  npp history_REBASE.txt
+  128  clear
+  129  ls
+  130  npp simple.html
+  131  git commit -am "mb before rebase conflicts"
+  132  git checkout -b bigtrouble
+  133  npp simple.html
+  134  npp commit -am "fb adding some trouble to simple.html"
+  135  git commit -am "fb adding some trouble to simple.html"
+  136  git status
+  137  git checkou master
+  138  git checkout master
+  139  git status
+  140  clear
+  141  npp simple.html
+  142  git status
+  143  git commt -am "mb conflicting changes brewing"
+  144  git commit -am "mb conflicting changes brewing"
+  145  git status
+  146  ls
+  147  npp .gitignore
+  148  git status
+  149  git add .gitignore
+  150  git commit --amend
+  151  git status
+  152  git log --oneline --decorate --all --graph
+  153  clear
+  154  git checkout bigtrouble
+  155  git difftool
+  156  git difftool master bigtrouble
+  157  git rebase master
+  158  git rebase --abort
+  159  git log --oneline
+  160  git rebase master
+  161  git mergetool
+  162  git status
+  163  git rebase --cintinue
+  164  gi rebase --continue
+  165  git rebase --continue
+  166  git status
+  167  git log --oneline
+  168  clear
+  169  npp simple.html
+  170  git commit -am "adding changes after rebasing conflict"
+  171  git status
+  172  git log --oneline
+  173  git checkout master
+  174  git merge bigtrouble
+  175  git log --oneline
+  176  clear
+  177  git status
+  178  git pull origin master
+  179  git push origin master
+  180  git push origin/master
+  181  git push origin master
+  182  git push
+  183  git push origin master
+  184  git push origin master
+  185  git push origin master
+  186  git push origin master
+  187  clear
+  188  git status
+  189  npp simple.html
+  190  git commit -am "local: updating simple.htmp copyright notice"
+  191  git status
+  192  git status
+  193  git fetch origin master
+  194  git status
+  195  git pull --rebase origin master
+  196  git status
+  197  git log --oneline
+  198  clear
+  199  git status
+  200  git branch
+  201  git branch -d bigtrouble
+  202  git branch
+  203  git pull origin master
+  204  git status
+  205  git push origin master
+  206  npp .gitignore
+  207  git status
+  208  history
