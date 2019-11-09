@@ -1,0 +1,98 @@
+  366  git pull
+  367  git status
+  368  git push
+  369  git status
+  370  clear
+  371  npp simple.html
+  372  git status
+  373  git stash
+  374  git status
+  375  npp simple.html
+  376  npp README.md
+  377  git status
+  378  git commit -am "Quick fix in production to improve copyright notice"
+  379  git status
+  380  git stash apply
+  381  git status
+  382  npp simpl.html
+  383  npp simple.html
+  384  git status
+  385  git commit -am "Done with simple.html updates"
+  386  git status
+  387  git stash list
+  388  git stash drop
+  389  clear
+  390  git status
+  391  git ls-files
+  392  npp humans.txt
+  393  git status
+  394  npp ANewFile.txt
+  395  git status
+  396  git stash
+  397  git status
+  398  git stash apply
+  399  git stash drop
+  400  git stash list
+  401  git stash -u
+  402  git status
+  403  git stash list
+  404  npp README.md
+  405  git commit -a
+  406  git status
+  407  clear
+  408  git status
+  409  git stash pop
+  410  git status
+  411  rm ANewFile.txt
+  412  git status
+  413  git commit -am "Updates to humans file after stash pop"
+  414  git status
+  415  clear
+  416  git status
+  417  ls
+  418  npp simple.html
+  419  git stash save "simple changes"
+  420  npp index.html
+  421  git stash save "index changes"
+  422  npp README.md
+  423  git stash save "README changes"
+  424  git stash list
+  425  git stash show stash@{1}
+  426  clear
+  427  git status
+  428  git stash list
+  429  git stash apply  stash@{1}
+  430  git status
+  431  git stash list
+  432  git stash drop stash@{1}
+  433  git stash list
+  434  git stash clear
+  435  git  stash list
+  436  clear
+  437  git stash list
+  438  npp simple.html
+  439  npp humans.txt
+  440  git status
+  441  git add index.html
+  442  git status
+  443  npp new.md
+  444  git status
+  445  git stash -u
+  446  git status
+  447  git stash branch newchanges
+  448  git stash list
+  449  git status
+  450  rm new.md
+  451  git add .
+  452  git status
+  453  git commit
+  454  git checkout master
+  455  git merge newchanges
+  456  git branch -d newxhanges
+  457  git branch -d newchanges
+  458  git branch
+  459  clear
+  460  git staus
+  461  git status
+  462  git pull origin maste
+  463  git pull origin master
