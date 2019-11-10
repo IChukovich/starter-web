@@ -1,0 +1,60 @@
+  515  git pull origin master
+  516  git push origin master
+  517  git status
+  518  clear
+  519  git log --onrline --decorate --graph --all
+  520  git log --oneline --decaratr --graph --all
+  521  git log --oneline --decorate --graph --all
+  522  git tag myTag
+  523  git log --oneline
+  524  git tag --list
+  525  git show myTag
+  526  git tag --delete myTag
+  527  git tag --list
+  528  git log --oneline
+  529  clear
+  530  git status
+  531  git tag -a v-1.0
+  532  git tag --list
+  533  git log --oneline
+  534  git show v-1.0
+  535  git tag --list
+  536  ls
+  537  npp index.html
+  538  git commit -a
+  539  git log --oneline --decorate --graph --all
+  540  git tag -a v-1.1
+  541  npp simple.html
+  542  git commit -am "Updating for tag 1.1"
+  543  git commit --amend
+  544  git tag v-1.2 -m "Release 1.2"
+  545  git tag --list
+  546  git log --oneline
+  547  git diff v-1.0 v-1.2
+  548  git difftool v-1.0 v-1.2
+  549  clear
+  550  git status
+  551  git log
+  552  git log --oneline
+  553  git tag -a v-0.9-beta 5a4abd4
+  554  git log --oneline
+  555  git log --oneline
+  556  git tag -a v-0.8-alpha fa6e3d4
+  557  git log --oneline
+  558  clear
+  559  git status
+  560  git log --oneline
+  561  git tag -a v-0.8-alpha -f 4e1f95e
+  562  git log --oneline
+  563  clera
+  564  clear
+  565  git tag --list
+  566  git log --oneline
+  567  git log --oneline --all
+  568  git push origin v-0.9-beta
+  569  git push origin v-1.1
+  570  clear
+  571  git push origin master --tags
+  572  git tag --list
+  573  git push origin :v-0.8-alpha
+  574  history
